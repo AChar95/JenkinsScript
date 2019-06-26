@@ -8,10 +8,10 @@ read userInput
 
 case $userInput in
 	"install") echo "Installing Jenkins"
-	       	scripts/./install.sh;;
+	       	scripts/install.sh;;
 	"update") echo "Updating Jenkins"  
-		scripts/./update.sh;;
+		scripts/update.sh;;
 	"delete") echo "Deleting Jenkins" 
-		scripts/./delete.sh;;
+		scripts/delete.sh;;
 	*) echo "You have not selected a correct option: you have install, update and delete"
 esac		
