@@ -10,7 +10,7 @@ This run file does not require any further action from the user except from ente
 It is recommended that you just run the **run.sh** rather than any of the following files as it will give you the option to run any of the other scripts from the same place.
 
 #### install.sh
-This file can be found in the folder scripts, this will install jenkins along with any other associated files in their correct directories, it will also enable the option to run Jenkins from boot and create a user called Jenkins.
+This file can be found in the folder scripts, this will install jenkins along with any other associated files in their correct directories, it will also enable the option to run Jenkins from boot and create a user called Jenkins. This will create a new user called Jenkins.
 
 #### update.sh
 This file can be found in the folder scripts, this will remove the old Jenkins install then download the updated version of Jenkins.
