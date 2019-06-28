@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install openjdk-8-jdk
+sudo apt install -y wget vim openjdk-8-jdk
 sudo useradd --create-home jenkins
 sudo usermod --shell /bin/bash jenkins
 
