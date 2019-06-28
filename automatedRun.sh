@@ -1,3 +1,3 @@
 #!/bin/bash
 
-scripts/install.sh;;
+scripts/install.sh
